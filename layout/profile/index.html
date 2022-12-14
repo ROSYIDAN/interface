@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MyPharmacy</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+  </head>
+  <nav class="navbar bg-light sticky-top" style="box-shadow: 0px 1px 10px;">
+    <div class="container-fluid position-relative">
+      <a class="navbar-brand pd-3" href="#">MyPharmacy</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas bg-success offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <p>
+          <button type="button" class="btn-close text-reset mt-3 mx-3" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </p>
+        <div class="offcanvas-header">
+          <div class="container text-center nav-item">
+            <a class="nav-link" href="/profile">
+              <i class="fa fa-user-circle" style="font-size:8.5rem"></i>
+            </a>
+          </div>
+        </div>
+        <div class="offcanvas-body text-center">
+          <ul class="navbar-nav">
+            <li class="nav-item mt-3">
+              <a class="nav-link active" aria-current="page" href="/home">
+                <i class="fa-solid fa-house" style="font-size:40px"></i>
+              </a>
+            </li>
+            <li class="nav-item mt-3">
+              <a class="nav-link" href="#">
+                <i class="fa fa-shopping-basket" style="font-size:40px"></i>
+              </a>
+            </li>
+            <li class="nav-item mt-3">
+              <a class="nav-link" href="#">
+                <i class="fa fa-shopping-basket" style="font-size:40px"></i>
+              </a>
+            </li>
+            <li class="nav-item mt-3">
+              <a class="nav-link" href="#">
+                <i class="fa fa-sign-out" style="font-size:40px"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="offcanvas-bottom">
+          <span class="divider"></span>
+          <div class="posisi">
+            <h4>Saldo:</h4>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <body class="bg-light ">
+      <div class="container mt-5">
+        <div class="row d-flex justify-content-center">
+          <div class="col-md mt-5 pt-5">
+            <div class="row z-depth-3 rounded" style="box-shadow: 3px 3px 10px;">
+              <div class="col-sm-4 bg-dark rounded-start">
+                <div class="card-block text-center text-white">
+                  <i class="fas fa-user-tie fa-7x"></i>
+                  <h2 class="fw-bold mt-2">Nama</h2>
+                    <p class="text-sm-">Mahasiswa</p>
+                  <i class="far fa-edit mt-3 my-3"></i>
+                </div>
+              </div>
+              <div class="col-sm-8 bg-white rounded-end">
+                <div class="mx-2">
+                  <h1 class="ud mt-3 text-center">Information</h1>
+                  <hr class="hr-blurry">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <h5 class="fw-bold">Email:</h5>
+                      <h6 class="text-muted">iniEmail@gmail.com</h6>
+                    </div>
+                    <div class="col-sm-6">
+                      <h5 class="fw-bold">Nomor Handphone:</h5>
+                      <h6 class="text-muted">+62 8771436324</h6>
+                    </div>
+                  </div>
+                  <div class="row mt-2">
+                    <div class="col">
+                      <h5 class="fw-bold">Alamat:</h5>
+                      <h6 class="text-muted">Jl. Araya Mansion No.8 - 22, Genitri, Tirtomoyo, Kec. Pakis, Kabupaten Malang, Jawa Timur 65154</h6>
+                    </div>
+                    <div class="col-sm-6">
+                      <h5 class="fw-bold">Hobi:</h5>
+                      <h6 class="text-muted">Makan pisang goreng</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="mx-2">
+                  <h3 class="ud mt-3">About</h3>
+                  <hr class="hr-blurry">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <h5 class="fw-bold">Gender</h5>
+                      <h6 class="text-muted">Male</h6>
+                    </div>
+                    <div class="col-sm-6">
+                      <h5 class="fw-bold">Status</h5>
+                      <h6 class="text-muted">Married</h6>
+                    </div>
+                  </div>
+                  <hr class="hr-blurry">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+    
+  <!-- AKHIR PROFILE -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
+</html>
